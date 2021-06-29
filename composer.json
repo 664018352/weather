@@ -1,0 +1,31 @@
+{
+    "name": "tannaw\/weather",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tannaw",
+            "email": "664018352@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tannaw\\Weather\\": "./src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Tannaw\\Weather\\ServiceProvider"
+        ]
+    }
+}
+
+}
